@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perkenalan Diri</title>
+    <link rel="icon" type="image/png" href="https://img.icons8.com/?size=100&id=72721&format=png&color=000000">
+    <style>
+        body {
+            background-color: #1e1e2e;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background-color: #ff007f;
+            padding: 15px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        a:hover {
+            color: blue;
+        }
+
+        h1 {
+            display: inline-block;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 80px;
+        }
+
+        h2 {
+            color: #ff007f;
+            text-transform: uppercase;
+            margin-top: 50px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+
+        table {
+            width: 60%;
+            margin: auto;
+            border-collapse: collapse;
+            background-color: #2e2e48;
+        }
+
+        th, td {
+            border: 2px solid #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #ff007f;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #3a3a5a;
+        }
+
+        dt {
+            font-weight: bold;
+            color: #ff007f;
+            font-size: 20px;
+        }
+
+        dd {
+            font-size: 18px;
+            color: #ffffff;
+        }
+
+        blockquote {
+            font-style: italic;
+            color: #66ff66;
+            border-left: 5px solid #66ff66;
+            padding-left: 10px;
+            width: 50%;
+            margin: auto;
+            font-size: 20px;
+        }
+
+        img {
+            width: 250px;
+            height: 300px;
+            border-radius: 50%;
+            box-shadow: 0 0 10px #ff007f;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        hr {
+            border: 2px solid #ff007f;
+            width: 80%;
+            margin-top: 30px;
+        }
+
+        section {
+            padding: 60px 20px;
+        }
+
+        a img {
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+            transition: transform 0.3s;
+        }
+
+        a img:hover {
+        transform: scale(1.2);
+        box-shadow: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="#info">Informasi Pribadi</a>
+        <a href="#pendidikan">Pendidikan</a>
+        <a href="#makanan">Makanan Favorit</a>
+        <a href="#kutipan">Kutipan Favorit</a>
+        <a href="#kontak">Kontak</a>
+    </header>
+
+    <h1>Perkenalan Diri</h1>
+    <br>
+    <img src="DSC_0455.jpg" alt="Foto Profil">
+    <br>
+
+    <section id="info">
+        <h2>Informasi Pribadi</h2>
+        <ul>
+            <li><b>Nama:</b> Novita Azka Maghfira</li>
+            <li><b>Hobi:</b> Membaca, Coding, dan Berkebun</li>
+        </ul>
+    </section>
+
+    <section id="pendidikan">
+        <h2>Pendidikan</h2>
+        <table>
+            <tr>
+                <th>Jenjang</th>
+                <th>Institusi</th>
+                <th>Tahun</th>
+            </tr>
+            <tr>
+                <td>SMK</td>
+                <td>SMK Telkom Malang</td>
+                <td>2024</td>
+            </tr>
+            <tr>
+                <td>Perguruan Tinggi</td>
+                <td>Universitas Brawijaya</td>
+                <td>Sekarang</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="makanan">
+        <h2>Makanan Favorit</h2>
+        <dl>
+            <dt>Bakso</dt>
+            <dd>Bola daging dengan kuah light</dd>
+
+            <dt>Mie Ayam</dt>
+            <dd>Mie dengan topping ayam bumbu kecap</dd>
+        </dl>
+    </section>
+
+    <section id="kutipan">
+        <h2>Kutipan Favorit</h2>
+        <blockquote>"Let's make the whole world green and lively"</blockquote>
+    </section>
+
+    <section id="kontak">
+        <h2>Kontak</h2>
+        <p>Email: <a href="mailto:novazkaam@gmail.com">novazkaam@gmail.com</a></p>
+        <p>Website: <a href="https://web-pribadi-five.vercel.app/" target="_blank">web profile</a></p>
+
+        <a href="https://github.com/nowwie" target="_blank">
+            <img src="https://img.icons8.com/ios-filled/50/github.png" alt="GitHub">
+        </a>
+        <a href="https://www.linkedin.com/in/novita-azka-063626254/" target="_blank">
+            <img src="https://img.icons8.com/ios-filled/50/linkedin.png" alt="LinkedIn">
+        </a>
+    </section>
+
+</body>
+</html>
